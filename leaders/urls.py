@@ -1,0 +1,42 @@
+from django.urls import path
+
+
+from . import views
+
+urlpatterns = [
+    path("", views.leaders, name="leaders"),
+    path("vice-chief-of-the-army-staff", views.VICE_CHIEF_OF_THE_ARMY_STAFF, name="VICE_CHIEF_OF_THE_ARMY_STAFF"),
+    path("army-commanders", views.Army_Commanders, name="Army_Commanders"),
+    path("deputy-chief-of-army-staff", views.Deputy_Chief_of_Army_Staff, name="Deputy_Chief_of_Army_Staff"),
+    path("general-sir-mcgregor-macdonald-lockhart", views.General_Sir_Mcgregor_Macdonald_Lockhart, name="General_Sir_Mcgregor_Macdonald_Lockhart"),
+    path("general-sir-francis-robert-roy-bucher", views.General_Sir_Francis_Robert_Roy_Bucher, name="General_Sir_Francis_Robert_Roy_Bucher"),
+    path("field-marshal-kodandera-madappa-cariappa", views.Field_Marshal_Kodandera_Madappa_Cariappa, name="Field_Marshal_Kodandera_Madappa_Cariappa"),
+    path("general-maharaj-shri-rajendra-sinhji", views.General_Maharaj_Shri_Rajendra_Sinhji, name="General_Maharaj_Shri_Rajendra_Sinhji"),
+    path("general-satyawant-mallana-srinagesh", views.General_Satyawant_Mallana_Srinagesh, name="General_Satyawant_Mallana_Srinagesh"),
+    path("general-kodandera-subayya-thimayya-padma-bhushan", views.General_Kodandera_Subayya_Thimayya, name="General_Kodandera_Subayya_Thimayya"),
+    path("general-pran-nath-thapar", views.General_Pran_Nath_Thapar, name="General_Pran_Nath_Thapar"),
+    path("general-jayanto-nath-chaudhuri", views.General_Jayanto_Nath_Chaudhuri, name="General_Jayanto_Nath_Chaudhuri"),
+    path("general-paramasiva-prabhakar-kumramangalam", views.General_Paramasiva_Prabhakar_Kumramangalam, name="General_Paramasiva_Prabhakar_Kumramangalam"),
+    path("field-marshal-sam-hormusji-framji-jamshedji-manekshaw", views.Field_Marshal_Sam_Hormusji_Framji_Jamshedji_Manekshaw, name="Field_Marshal_Sam_Hormusji_Framji_Jamshedji_Manekshaw"),
+    path("general-gopal-gurnath-bewoor-padam-bhushan", views.General_Gopal_Gurnath_Bewoor, name="General_Gopal_Gurnath_Bewoor"),
+    path("general-tapishwar-narain-raina", views.General_Tapishwar_Narain_Raina, name="General_Tapishwar_Narain_Raina"),
+    path("general-om-prakash-malhotra", views.General_Om_Prakash_Malhotra, name="General_Om_Prakash_Malhotra"),
+    path("general-kotikalapudi-venkata-krishna-rao", views.General_Kotikalapudi_Venkata_Krishna_Rao, name="General_Kotikalapudi_Venkata_Krishna_Rao"),
+    path("general-arunkumar-shridhar-vaidya-padam-vibhushan", views.General_Arunkumar_Shridhar_Vaidya, name="General_Arunkumar_Shridhar_Vaidya"),
+    path("general-krishnaswami-sundarji", views.General_Krishnaswami_Sundarji, name="General_Krishnaswami_Sundarji"),
+    path("general-vishwa-nath-sharma", views.General_Vishwa_Nath_Sharma, name="General_Vishwa_Nath_Sharma"),
+    path("general-sunith-francis-rodrigues", views.General_Sunith_Francis_Rodrigues, name="General_Sunith_Francis_Rodrigues"),
+    path("general-bipin-chandra-joshi", views.General_Bipin_Chandra_Joshi, name="General_Bipin_Chandra_Joshi"),
+    path("general-shankar-roy-chowdhury", views.General_Shankar_Roy_Chowdhury, name="General_Shankar_Roy_Chowdhury"),
+    path("general-ved-prakash-malik", views.General_Ved_Prakash_Malik, name="General_Ved_Prakash_Malik"),
+    path("general-sundararajan-padmanabhan", views.General_Sundararajan_Padmanabhan, name="General_Sundararajan_Padmanabhan"),
+    path("general-nirmal-chander-vij", views.General_Nirmal_Chander_Vij, name="General_Nirmal_Chander_Vij"),
+    path("general-joginder-jaswant-singh", views.General_Joginder_Jaswant_Singh, name="General_Joginder_Jaswant_Singh"),
+    path("general-deepak-kapoor", views.GENERAL_DEEPAK_KAPOOR, name="GENERAL_DEEPAK_KAPOOR"),
+    path("general-vijay-kumar-singh", views.GENERAL_VIJAY_KUMAR_SINGH, name="GENERAL_VIJAY_KUMAR_SINGH"),
+    path("general-bikram-singh", views.General_Bikram_Singh, name="General_Bikram_Singh"),
+    path("general-dalbir-singh", views.GENERAL_DALBIR_SINGH, name="GENERAL_DALBIR_SINGH"),
+    path("general-bipin-rawat", views.General_Bipin_Rawat, name="General_Bipin_Rawat"),
+    path("general-mm-naravane", views.General_MM_Naravane, name="General_MM_Naravane"),
+    path("general-manoj-pande", views.General_Manoj_Pande, name="General_Manoj_Pande"),
+]
