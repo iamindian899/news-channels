@@ -1,0 +1,75 @@
+﻿@import "https://cdnjs.cloudflare.com/ajax/libs/flexslider/2.6.3/flexslider.min.css";
+
+.flexslider {
+    position:relative;
+}
+    .flexslider .slides li img {
+        width: 100%;
+        display: block;
+    }
+    .flexslider .slides img {
+        height: auto;
+    }
+
+.flexslider, .flex-viewport, .slides, img {
+    max-height: 90vh;
+    height: auto;
+}
+.flexslider .flex-direction-nav a::before {
+    font-size: 15px;
+    font-weight: 300;
+    background: #19181f;
+    display: inline-block;
+    color: #FFF;
+    border-radius: 0px;
+    text-shadow: none;
+    line-height: 30px;
+    width: 40px;
+    text-align: center;
+    padding: 5px;
+    color:#fff;
+}
+    .flexslider .flex-direction-nav a,
+    .flexslider .flex-direction-nav a {
+        display: block; /* I added this line */
+    }
+    .flexslider .flex-direction-nav .flex-next {
+        right: 5px; /* adjust offset to match the hover style */
+        opacity: .8; /* adjust opacity to match the hover style */
+    }
+
+    .flexslider .flex-direction-nav .flex-prev {
+        left: 5px; /* adjust offset to match the hover style */
+        opacity: .8; /* adjust opacity to match the hover style */
+    }
+.flex-pauseplay {
+    display: block;
+    bottom: 10px;
+    height: 35px;
+    left: auto;
+    margin-left: 0;
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    top: auto;
+    width: 40px;
+    z-index: 1000;
+    background: #d2f8cb;
+}
+.flex-control-nav {
+    display: block;
+    bottom: 10px;
+    float: right;
+    width: auto;
+    right: 40px;
+    background: #d2f8cb;
+    height: 35px;
+    padding-left: 15px;
+    padding-top: 13px;
+    border-radius: 5px 0 0 5px;
+}
+*, *:before, *:after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}

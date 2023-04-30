@@ -1,0 +1,58 @@
+.home-banner button.owl-dot,.info-block,.list-item img,.filter-link a,.overlay,.logo,.pm-connect a { transition:all 0.4s ease 0s; -moz-transition:all 0.4s ease 0s; -webkit-transition:all 0.4s ease 0s;}
+.home-banner{padding-bottom:15px;}
+.home-banner img{display:block; }
+/*margin:0 auto 30px;*/
+.owl-carousel {position: relative;height:auto !important;}	
+.owl-carousel div:not(.owl-controls) {height:100%}
+.home-banner .owl-dots{height:auto !important; position:absolute; bottom:40px; z-index:89898; text-align:center; width:100%;}
+.home-banner button.owl-dot{width:10px; height:10px; background:#b4b4b4; margin:0 5px; border-radius:50%;}
+.home-banner button.owl-dot.active{background:#fff; width:12px; height:12px;}
+
+@media all and (max-width:1023px){
+ .home-banner{ position:relative;}
+ .home-banner{padding-bottom:0px; height:auto !important}
+ .home-banner .owl-dots{bottom:15px;} 
+ .banner-nav .menu{display:block;}
+  /*other-schemes .list-block {width: 33.33%;}*/
+ .main-slide-cat-icon{font-size: 2rem;}
+ .home-banner img{height:auto;}
+.owl-carousel .next-post .next-post-wrapper {height:auto !important; position:absolute; bottom:10px;}
+.owl-carousel .next-post .main-slide-title {font-size: 2rem;line-height: 20px; -webkit-transition: all .3s;  transition: all .3s;  display:inline;  color: #fff; text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.85);}
+}
+@media all and (max-width:767px){
+ .owl-carousel .slogan-text{font-size:30px; top:20px; right:20px;}
+ #wcarousel{height:240px;}
+ .banner-nav ul{padding-top:8px;}
+ .banner-nav li{margin-bottom:8px; font-size:11px;}
+ .main-slide-cat-icon{font-size: 1.5rem;}
+ .owl-carousel .next-post .next-post-wrapper {height:auto !important; position:absolute; bottom:10px;}
+ .owl-carousel .next-post .main-slide-title {font-size: 2rem; line-height: 20px; -webkit-transition: all .3s;  transition: all .3s;  display:inline;  color: #fff; text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.85);}
+}
+.owl-carousel {position: relative;height: 100%;}	
+.owl-carousel div:not(.owl-controls) {height: 100%;}
+.owl-carousel .slogan-text{position:absolute; right:20px; top:20px; z-index:9; height:auto !important; max-width:17%;}
+.owl-carousel .slogan-text img{height:auto;}
+
+.main-slide-title {font-size: 3rem; line-height: 40px; -webkit-transition: all .3s;  transition: all .3s;  display:inline;  color: #fff; text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.85);}
+.main-slide-cat-icon{font-size: 3rem; width: 26px;line-height: 28px;	color: #fff;display: inline-block;text-align: center;vertical-align: middle;margin-right: 10px;}
+.owl-carousel .next-post .next-post-wrapper {
+    /*position:absolute;*/ 
+    height:auto !important; position:absolute; bottom:1px;
+  /*vertical-align: bottom*/
+}
+.owl-carousel .next-post a,p,
+.owl-carousel .next-post .slide-cat{
+  color: #fff;
+   text-decoration:none;
+}
+.owl-carousel .next-post .main-slide-cat{
+   text-shadow: 0px 0px 20px rgba(0, 0, 0, 0.85);
+   /*text-transform: uppercase;*/
+   font-size:2.5rem;
+}
+.owl-carousel .next-post .slide-title:hover{
+  opacity: .8;
+}
+.owl-carousel .next-post .next-post-wrapper > div {
+  padding: 50px;
+}
