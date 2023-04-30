@@ -1,0 +1,86 @@
+{% load static %}
+
+<!--/Commented /Removed by CP since image pop-up was not working with Jquery 3.1.1-->
+
+    <!--<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="/assets/js/bootstrap.min.js"></script>-->
+
+    <script src="{% static 'assets/js/bootstrap.js' %}"></script>
+    <script src="{% static 'assets/js/smoothscroll.js' %}"></script>
+    <!-- select menu -->
+    <script src="{% static 'assets/js/classie.js' %}"></script>
+    <script src="{% static 'assets/js/selectFx.js' %}"></script>
+    <!-- slider -->
+    <script src="{% static 'assets/js/jquery.nanoscroller.js' %}"></script>
+    <script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+    <script src="{% static 'assets/js/jquery.flexslider-min.js' %}"></script>
+    <!-- sitcky menu -->
+    <script src="{% static 'assets/js/jquery.sticky.js' %}"></script>
+    <!-- custom js -->
+    <script src="{% static 'assets/js/main.js' %}"></script>
+    <script src="{% static 'assets/js/switcher.js' %}"></script>
+    <!--<script src="/assets/js/iascript.js"></script>
+    <script src="/assets/js/iascript1.js"></script>-->
+
+    <!--Font Increase-->
+
+    <script>
+
+        var $affectedElements = $("body,p,font"); // Can be extended, ex. $("div, p, span.someClass")
+
+        // Storing the original size in a data attribute so size can be reset
+        $affectedElements.each(function () {
+            var $this = $(this);
+            $this.data("orig-size", $this.css("font-size"));
+        });
+
+        var originalSize = $('body,p,font').css('font-size');
+        $("#btn-orig").click(function () {
+            $('body,p,font').css('font-size', originalSize);
+        })
+
+        $("#btn-increase").click(function () {
+            changeFontSize(1);
+        })
+
+        $("#btn-decrease").click(function () {
+            changeFontSize(-1);
+        })
+        function changeFontSize(direction) {
+            $affectedElements.each(function () {
+                var $this = $(this);
+                $this.css("font-size", parseInt($this.css("font-size")) + direction);
+            });
+        }
+    </script>
+    <script>
+        var originalbackground = $('body,p').css('background-color');
+        var originalcolor = $('body,p').css('color');
+        $(document).ready(function () {
+            $("#daymode").click(function () {
+                $("body,p").css('background-color', originalbackground);
+                $("body,p").css('color', originalcolor);
+
+            });
+            $("#nightmode").click(function () {
+                $("body").css({ "color": "#fff", "background-color": "#262424" });
+                $("p").css({ "color": "#fff", "background-color": "#262424" });
+            });
+        });
+        //Promo Popup'
+        //$(document).ready(function () {
+
+        //    //Add code here
+
+        //});
+
+
+    </script>
+    <!--Youtube List-->
+    <script type='text/javascript' src="{% static 'assets/js/jquery-modal-video.min.js' %}"></script>
+    <script src="{% static 'assets/js/adgpivids.js' %}"></script>
+    <!--Social Count-->
+    <!--Slider
+    <script type='text/javascript' src='/assets/js/owl.carousel.min.js'></script>-->
+    <script type='text/javascript' src='{% static "assets/js/jquery.waterwheelCarousel.min.js" %}'></script>
+    <script type='text/javascript' src='{% static "assets/js/custom.js" %}'></script>

@@ -1,0 +1,133 @@
+
+
+
+{% load static %}
+
+{% load random_numbers %}
+<!--==================================
+        =            START FOOTER            =
+        ===================================-->
+        <footer>
+            <div class="footer-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div id="bottom1" class="col-sm-12 col-md-4">
+                            <p class="footer-logo">
+                                <img src="{% static 'assets/img/logo_light.png' %}" alt="Indian Army" />
+                            </p>
+                        </div>
+                        <!-- //bottom1 -->
+
+                        <div id="bottom2" class="col-sm-6 col-md-3">
+                            <div class="bottom-menu">
+                                <div class="pull-left">
+                                    <ul class="menu">
+                                        <li><a
+                                                href="{% url 'Contact_us' %}"><span
+                                                    id="spContactUs">Contact Us</span></a></li>
+
+                                        <li><a
+                                                href="{% url 'External_Links' %}"><span
+                                                    id="spArchive">External Links</span></a></li>
+                                        <li><a
+                                                href="{% url 'FAQ' %}"><span
+                                                    id="spFaq">FAQ</span></a></li>
+                                    </ul>
+                                </div>
+                                <div class="pull-right">
+                                    <ul class="menu">
+                                        <li><a
+                                                href="{% url 'Right_to_Information' %}"><span
+                                                    id="spRTI">Right to Information</span></a></li>
+                                        <li><a href="{% url 'Privacy_Policy' %}"><span id="spPrivecy">Privacy Policy</span></a>
+                                        </li>
+                                        
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- //bottom2 -->
+                        <div id="bottomF4" class="col-sm-6 col-md-2">
+                            <div class="social-wrapper">
+                                <!--<h3 class="title">Social Link</h3>-->
+                                <div class="pull-left">
+                                    <ul class="social-icons">
+                                        <li><a target="_blank" rel="noopener noreferrer"
+                                                href="#!"><i
+                                                    class="fa fa-facebook"></i><span id="spFB">Facebook</span></a>
+                                        </li>
+                                        <li><a target="_blank" rel="noopener noreferrer"
+                                                href="#!"><i class="fa fa-twitter"></i><span
+                                                    id="spTwitt">Twitter</span></a></li>
+                                        <li><a target="_blank" rel="noopener noreferrer"
+                                                href="#!"><i
+                                                    class="fa fa-youtube"></i><span
+                                                    id="spYouTube">Youtube</span></a></li>
+                                        <li><a target="_blank" rel="noopener noreferrer"
+                                                href="#!"><i
+                                                    class="fa fa-instagram"></i><span
+                                                    id="spInsta">Instagram</span></a></li>
+                                    </ul>
+                                </div>
+                                <div class="pull-right">
+
+
+                                </div>
+                            </div>
+                        </div>
+                        <div id="bottom1" class="col-sm-12 col-md-2">
+                            <p class="footer-logo">
+                                <a href="#!"> <img
+                                        src="{% static 'assets/img/Logo.jpg' %}" height="110"
+                                        style="height:110px !important"></a>
+                            </p>
+                        </div>
+                        <!-- //bottom4 -->
+                    </div>
+                    <!-- //row -->
+                    <div class="row">
+                        <div id="bottom4" class="col-md-12">
+                            <p id="spSiteInfo" class="footer-info">This is the Official Indian Army Web
+                                Portal,maintained &amp; managed by the Indian Army. Site hosted by NIC.</p>
+                            <div class="footer-contact">
+                                <p>
+                                    <span id="spEmail" style="color: #ffd800">Email:</span>&nbsp;
+                                    webmaster[dot]indianarmy[at]nic[dot]in
+                                </p>
+                            </div>
+                        </div>
+                        <!-- //bottom1 -->
+                    </div>
+                </div>
+                <!-- //container -->
+            </div>
+            <!-- //footer-wrapper -->
+            <div class="copyright-wrapper">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-sm-6 col-md-6">
+
+                        </div>
+                        {% comment %}
+                        <div class="col-sm-6 col-md-6">
+                            <p class="copyright">Copyright © 2021 <a
+                                    href="#!">ADG
+                                    Strat Comn.</a> All rights reserved. <span id="at_sitecredits"><a
+                                        href="#!">Site
+                                        Credits</a></span></p>
+                        </div>
+                        {% endcomment %}
+                        <div class="col-sm-6 col-md-6">
+                            <p id="spVisitor" class="pull-right">Last Updated <a href="javascript:void();"
+                                    id="at_lastUpd">{% now "jS F Y" %}</a> Visitors <a href="javascript:void();"
+                                    id="at_visitor">{% random_int 575900163 575900763 %}</a> </p>
+
+                        </div>
+                    </div>
+                    <!-- //row -->
+                </div>
+                <!-- //container -->
+            </div>
+            <!-- //copyright-wrapper -->
+        </footer>
+        <!--====  End of FOOTER  ====-->

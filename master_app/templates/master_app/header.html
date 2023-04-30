@@ -1,0 +1,262 @@
+{% load static %}
+
+<!--==================================
+            =            START Header            =
+            ===================================-->
+            <header>
+                <!-- top-bar -->
+                <div id="indianarmy-top-bar">
+                    <div class="container">
+                        <div class="row">
+                            <div id="logo" class="col-xs-4 col-sm-3 col-md-3 hidden-sm hidden-xs">
+                                <a href="{% url 'index' %}">
+                                    <img src="{% static 'assets/img/logo_light.png' %}" alt="Indian Army" />
+
+                                </a>
+                            </div>
+                            {% comment %}
+                            <!-- //logo -->
+                            <div class="col-sm-12 col-md-9">
+                                <div class="top-right">
+
+                                    <!--Language-->
+                                    <div id="google_translate_element" class="indianarmy-language"></div>
+
+                                    <div class="indianarmy">
+                                        <li class="dropdown">
+                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button"
+                                                aria-expanded="false">Language <span class="caret"></span></a>
+                                            <ul class="dropdown-menu" role="menu">
+                                                <li><a id="lnkLang"
+                                                        href="javascript:__doPostBack(&#39;ctl00$lnkLang&#39;,&#39;&#39;)">हिन्दी</a>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+                                    </div>
+                                    <!-- //language -->
+                                    <div class="indianarmy-search">
+                                        <div class="search-icon-wrapper">
+                                            <i class="fa fa-search"></i>
+
+                                        </div>
+                                        <div class="search-wrapper">
+                                            <div action="#" method="post">
+                                                <input name="searchword" maxlength="200"
+                                                    class="inputboxindianarmy-top-search" type="text" size="20"
+                                                    placeholder="Search ..." />
+                                                <i id="search-close" class="fa fa-close"></i>
+                                            </div>
+                                        </div>
+                                        <!-- //search-wrapper -->
+                                    </div>
+
+                                    <!-- //search -->
+                                </div>
+                                <!-- //top-right -->
+                            </div>
+                            {% endcomment %}
+                        </div>
+                        <!-- //row -->
+                    </div>
+                    <!-- //container -->
+                </div>
+                <!-- //top-bar -->
+                <!-- navigation mobile version -->
+                <div id="mobile-nav-bar" class="mobile-nav-bar">
+                    <div class="container">
+                        <div class="row">
+                            <div class="visible-sm visible-xs col-sm-12">
+                                <div id="logo2" class="mobile-logo pull-left">
+                                    <a href="{% url 'index' %}">
+                                        <img src="{% static 'assets/img/logo_mobile_dark.png' %}" alt="Indian Army Logo" /></a>
+                                </div>
+                                <a id="offcanvas-toggler" class="pull-right" href="#"><i class="fa fa-bars"></i>
+                                    Menu</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- navigation -->
+                <nav id="navigation-bar" class="navigation hidden-sm hidden-xs">
+                    <div class="container " style="padding : 0px;">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <ul class="list-inline megamenu-parent">
+                                    <li class="has-child">
+
+                                        <a><span id="spAbout">About</span></a>
+                                        <div class="dropdown-inner">
+                                            <ul class="dropdown-items">
+
+                                                <li><a
+                                                        href="{% url 'ORGANISATION_OF_MINISTRY_OF_DEFENCE' %}"><span
+                                                            id="spMoD">Organisation of Ministry of Defence</span></a>
+                                                </li>
+                                                <li><a
+                                                        href="{% url 'STRUCTURE_OF_ARMY' %}"><span
+                                                            id="spArmy">Structure of Indian Army</span></a></li>
+
+                                                <li><a
+                                                        href="{% url 'Our_Ethos' %}"><span
+                                                            id="spEthos">Ideas and Ethos</span></a></li>
+                                                <li><a
+                                                        href="{% url 'THEME_OF_THE_YEAR' %}"><span
+                                                            id="spTheme">Theme of the Year</span></a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="has-child">
+
+                                        <a><span id="spLeader">Leaders</span></a>
+                                        <div class="dropdown-inner">
+                                            <ul class="dropdown-items">
+                                                <li><a
+                                                        href="{% url 'leaders' %}"><span
+                                                            id="spCAS">Chief of the Army Staff</span></a></li>
+
+
+                                                <li><a
+                                                        href="{% url 'VICE_CHIEF_OF_THE_ARMY_STAFF' %}"><span
+                                                            id="spVCAS">Vice Chief of the Army Staff</span></a></li>
+
+                                                <li><a
+                                                        href="{% url 'Army_Commanders' %}"><span
+                                                            id="spAC">Army Commanders</span></a></li>
+
+                                                <li><a href="{% url 'Deputy_Chief_of_Army_Staff' %}"><span id="spDcoas">Deputy Chief of Army Staff</span></a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+
+
+
+                                    <li class="has-child">
+
+                                        <a><span id="spEA">Explore Army</span></a>
+                                        <div class="dropdown-inner">
+                                            <ul class="dropdown-items">
+                                                <li><a
+                                                        href="{% url 'Training_Establishment' %}"><span
+                                                            id="spTE">Training Establishments</span></a></li>
+
+                                                <li><a
+                                                        href="{% url 'Explore_Army' %}"><span
+                                                            id="spSA">Sports and Achievements</span></a></li>
+                                                <li><a
+                                                        href="{% url 'Adventure_Activities' %}"><span
+                                                            id="spAdvenAct">Adventure Activities</span></a></li>
+                                                <!--/explore-army/sports-achievements-->
+                                                <li><a href="{% url 'War_Memorials' %}"><span id="spWM">War
+                                                            Memorial</span></a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="has-child">
+
+                                        <a><span id="spPublication">Publications</span></a>
+                                        <div class="dropdown-inner">
+                                            <ul class="dropdown-items">
+                                                <li><a href="{% url 'publications' %}"><span id="spBC">Baat
+                                                            Cheet</span></a></li>
+
+                                                <li><a
+                                                        href="{% url 'Knowledge_Online' %}"><span
+                                                            id="spKO">Knowledge Online</span></a></li>
+
+                                                <li><a
+                                                        href="{% url 'Friends_For_Life' %}"><span
+                                                            id="spFFL">Friends For Life</span></a></li>
+                                                <li><a
+                                                        href="{% url 'Publications' %}"><span
+                                                            id="spClaws">Publications from Claws</span></a></li>
+                                                <li><a
+                                                        href="{% url 'ARTRAC_Pinnacle_Journal_2022' %}"><span
+                                                            id="spPinnacle">ARTRAC Pinnacle Journal</span></a></li>
+                                                <li><a
+                                                        href="{% url 'UN_Journal' %}"><span
+                                                            id="spUNJournal">UN Journal</span></a></li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li class="has-child">
+
+                                        <a><span id="spMedia">Media</span></a>
+                                        <div class="dropdown-inner">
+                                            <ul class="dropdown-items">
+
+                                                <li><a
+                                                        href="{% url 'Media_Release' %}"><span
+                                                            id="spMR">Media Releases</span></a></li>
+                                                <li><a
+                                                        href="{% url 'Photo_Gallery' %}"><span
+                                                            id="spPhoto">Photo Gallery</span></a></li>
+                                                <li><a
+                                                        href="{% url 'gallery' %}"><span
+                                                            id="spVideo">Video Gallery</span></a></li>
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li>
+
+                                        <a
+                                            href="{% url 'Army_Design_Bureau' %}"><span
+                                                id="spMI">Army Design Bureau</span></a>
+                                    </li>
+                                    <li class="has-child">
+
+                                        <a><span id="spTender">Tenders/RFI</span></a>
+                                        <div class="dropdown-inner">
+                                            <ul class="dropdown-items">
+                                                <li><a
+                                                        href="{% url 'Tender_and_RFI' %}"><span
+                                                            id="spTenders">Tenders</span></a></li>
+                                                <li><a
+                                                        href="{% url 'RFIs' %}"><span
+                                                            id="spRFI">RFI</span></a></li>
+                                                <li><a
+                                                        href="{% url 'Archive' %}"><span
+                                                            id="spArchives">Archives</span></a></li>
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                    <li><a
+                                            href="{% url 'Contact_us' %}"><span
+                                                id="spContact">Contact Us</span></a></li>
+                                    
+                                    {% comment %}
+                                                <li>
+                                        <div class="social-link col-newskit d-inline-block">
+                                            <div class="social-share">
+                                                <a id="btn-increase" href="javascript:void(0)">
+                                                    <img src="{% static 'assets/img/icon/stock_increase-font.png' %}" width="20"
+                                                        height="20" alt="" title="Increase" /></a>
+                                                <a id="btn-orig" href="javascript:void(0);">
+                                                    <img src="{% static 'assets/img/icon/stock_font-size.png' %}" width="20"
+                                                        height="20" alt="" title="Default" /></a>
+                                                <a id="btn-decrease" href="javascript:void(0);">
+                                                    <img src="{% static 'assets/img/icon/stock_decrease-font.png' %}" width="20"
+                                                        height="20" alt="" title="Decrease" /></a>
+                                                <a id="daymode"><i class="fa fa-sun-o"
+                                                        style=" width:20px;height:20px"></i></a>
+                                                <a id="nightmode" style="background-color:#000000"><i
+                                                        class="fa fa-moon-o"
+                                                        style="color:#fff;width:20px;height:18px"></i></a>
+                                            </div>
+                                        </div>
+                                    </li>
+
+                                    {% endcomment %}
+                                </ul>
+                            </div>
+                            <!-- col-sm-12 -->
+                        </div>
+                        <!-- //row -->
+                    </div>
+                    <!-- //container -->
+                </nav>
+                <!-- //navigation -->
+            </header>
+            <!--====  End of Header  ====-->
