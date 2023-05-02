@@ -329,3 +329,12 @@ def museum(request):
     
     }
     return render(request, template_name, context)
+
+
+
+def Hall_of_Fame(request):
+    template_name="master_app/Hall_of_Fame.html"
+    context={
+    
+    }
+    return render(request, template_name, context)

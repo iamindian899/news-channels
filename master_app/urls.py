@@ -44,6 +44,7 @@ urlpatterns = [
     path("siachin-bn-acc-wing/", views.Siachin_Bn, name="Siachin_Bn"),
     path("jubilees/", views.jubilees, name="jubilees"),
     path("museum/", views.museum, name="museum"),
+    path("hall-of-fame/", views.Hall_of_Fame, name="Hall_of_Fame"),
 ]
 
 
