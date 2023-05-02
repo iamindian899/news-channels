@@ -290,3 +290,11 @@ def Roll_of_Honour(request):
     
     }
     return render(request, template_name, context)
+
+
+def Life_of_a_GC(request):
+    template_name="master_app/Life_of_a_GC.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
