@@ -45,6 +45,11 @@ urlpatterns = [
     path("jubilees/", views.jubilees, name="jubilees"),
     path("museum/", views.museum, name="museum"),
     path("hall-of-fame/", views.Hall_of_Fame, name="Hall_of_Fame"),
+    path("iam/photo-gallery/1932-1947", views.IAM_Photo_Gallery, name="IAM_Photo_Gallery"),
+    path("iam/photo-gallery/1948-1956", views.IAM_Photo_Gallery_1948, name="IAM_Photo_Gallery_1948"),
+    path("iam/photo-gallery/1957-1976", views.IAM_Photo_Gallery_1957, name="IAM_Photo_Gallery_1957"),
+    path("iam/photo-gallery/1977-1982", views.IAM_Photo_Gallery_1977, name="IAM_Photo_Gallery_1977"),
+    path("iam/photo-gallery/1983-2000", views.IAM_Photo_Gallery_1983, name="IAM_Photo_Gallery_1983"),
 ]
 
 

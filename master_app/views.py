@@ -338,3 +338,44 @@ def Hall_of_Fame(request):
     
     }
     return render(request, template_name, context)
+
+
+def IAM_Photo_Gallery(request):
+    template_name="master_app/IAM_Photo_Gallery.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
+
+
+def IAM_Photo_Gallery_1948(request):
+    template_name="master_app/IAM_Photo_Gallery_1948.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
+
+
+def IAM_Photo_Gallery_1957(request):
+    template_name="master_app/IAM_Photo_Gallery_1957.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
+
+
+
+def IAM_Photo_Gallery_1977(request):
+    template_name="master_app/IAM_Photo_Gallery_1977.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
+
+
+def IAM_Photo_Gallery_1983(request):
+    template_name="master_app/IAM_Photo_Gallery_1983.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
