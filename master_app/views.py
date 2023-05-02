@@ -313,3 +313,11 @@ def Siachin_Bn(request):
     
     }
     return render(request, template_name, context)
+
+
+def jubilees(request):
+    template_name="master_app/jubilees.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
