@@ -43,6 +43,7 @@ urlpatterns = [
     path("ima-club/", views.IMA_Club, name="IMA_Club"),
     path("siachin-bn-acc-wing/", views.Siachin_Bn, name="Siachin_Bn"),
     path("jubilees/", views.jubilees, name="jubilees"),
+    path("museum/", views.museum, name="museum"),
 ]
 
 

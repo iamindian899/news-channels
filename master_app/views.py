@@ -321,3 +321,11 @@ def jubilees(request):
     
     }
     return render(request, template_name, context)
+
+
+def museum(request):
+    template_name="master_app/museum.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
