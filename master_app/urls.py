@@ -38,6 +38,7 @@ urlpatterns = [
     path("entries/", views.entries, name="entries"),
     path("training/", views.training, name="training"),
     path("trial-and-triumph/", views.Trial_and_Triumph, name="Trial_and_Triumph"),
+    path("roll-of-honour/", views.Roll_of_Honour, name="Roll_of_Honour"),
 ]
 
 

@@ -282,3 +282,11 @@ def Trial_and_Triumph(request):
     
     }
     return render(request, template_name, context)
+
+
+def Roll_of_Honour(request):
+    template_name="master_app/Roll_of_Honour.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
