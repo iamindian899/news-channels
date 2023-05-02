@@ -274,3 +274,11 @@ def training(request):
     
     }
     return render(request, template_name, context)
+
+
+def Trial_and_Triumph(request):
+    template_name="master_app/Trial_and_Triumph.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
