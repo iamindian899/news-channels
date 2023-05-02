@@ -305,3 +305,11 @@ def IMA_Club(request):
     
     }
     return render(request, template_name, context)
+
+
+def Siachin_Bn(request):
+    template_name="master_app/Siachin_Bn.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
