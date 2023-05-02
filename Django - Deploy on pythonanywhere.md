@@ -17,7 +17,7 @@ Assuming your code is already on a code sharing site like GitHub or Bitbucket, y
 $ git clone https://oauth-key-goes-here@github.com/username/repo.git
 
 
-https://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@github.com/iamindian899/news-channels.git
+
 
 
 ```

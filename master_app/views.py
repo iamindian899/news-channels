@@ -228,5 +228,25 @@ def Platinum_Jubilee_and_Thereafter(request):
     return render(request, template_name, context)
 
 
+def commandants(request):
+    template_name="master_app/commandants.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
 
 
+def Deputy_Commandant(request):
+    template_name="master_app/Deputy_Commandant.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
+
+
+def IMA_Campus_and_Landmarks(request):
+    template_name="master_app/IMA_Campus_and_Landmarks.html"
+    context={
+    
+    }
+    return render(request, template_name, context)

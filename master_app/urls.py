@@ -31,6 +31,9 @@ urlpatterns = [
     path("silver-to-golden-jubilee/", views.Silver_to_Golden_Jubilee, name="Silver_to_Golden_Jubilee"),
     path("diamond-to-platinum-jubilee/", views.Diamond_to_Platinum_Jubilee, name="Diamond_to_Platinum_Jubilee"),
     path("platinum-jubilee-and-thereafter/", views.Platinum_Jubilee_and_Thereafter, name="Platinum_Jubilee_and_Thereafter"),
+    path("commandants/", views.commandants, name="commandants"),
+    path("deputy-commandant/", views.Deputy_Commandant, name="Deputy_Commandant"),
+    path("ima-campus-and-landmarks/", views.IMA_Campus_and_Landmarks, name="IMA_Campus_and_Landmarks"),
 ]
 
 
