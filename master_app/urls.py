@@ -24,7 +24,13 @@ urlpatterns = [
     path("FAQ" , views.FAQ, name="FAQ"),
     path("right-to-information" , views.Right_to_Information, name="Right_to_Information"),
     path("privacy-policy" , views.Privacy_Policy, name="Privacy_Policy"),
-
+    path("iam/", views.iam, name="iam"),
+    path("history/", views.history, name="history"),
+    path("begining-to-independence/", views.Begining_to_Independence, name="Begining_to_Independence"),
+    path("independence-to-silver-jubilee/", views.Independence_to_Silver_Jubilee, name="Independence_to_Silver_Jubilee"),
+    path("silver-to-golden-jubilee/", views.Silver_to_Golden_Jubilee, name="Silver_to_Golden_Jubilee"),
+    path("diamond-to-platinum-jubilee/", views.Diamond_to_Platinum_Jubilee, name="Diamond_to_Platinum_Jubilee"),
+    path("platinum-jubilee-and-thereafter/", views.Platinum_Jubilee_and_Thereafter, name="Platinum_Jubilee_and_Thereafter"),
 ]
 
 

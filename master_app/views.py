@@ -168,3 +168,61 @@ def Privacy_Policy(request):
 
 
 
+
+
+
+def iam(request):
+    template_name="master_app/iam.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
+
+
+def history(request):
+    template_name="master_app/history.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
+
+
+
+def Begining_to_Independence(request):
+    template_name="master_app\Begining_to_Independence.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
+
+
+def Independence_to_Silver_Jubilee(request):
+    template_name="master_app\Independence_to_Silver_Jubilee.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
+
+
+def Silver_to_Golden_Jubilee(request):
+    template_name="master_app\Silver_to_Golden_Jubilee.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
+
+
+def Diamond_to_Platinum_Jubilee(request):
+    template_name="master_app\Diamond_to_Platinum_Jubilee.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
+
+
+def Platinum_Jubilee_and_Thereafter(request):
+    template_name="master_app\Platinum_Jubilee_and_Thereafter.html"
+    context={
+    
+    }
+    return render(request, template_name, context)

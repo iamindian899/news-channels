@@ -9,4 +9,5 @@ urlpatterns = [
     path("training-team/", views.Training_Team, name="Training_Team"),
     path("rashtriya-military-schools/", views.Rashtriya_Military_Schools, name="Rashtriya_Military_Schools"),
     path("ignou-army-education-project-iaep/", views.Army_Education_Project, name="Army_Education_Project"),
+    
 ]

@@ -49,3 +49,5 @@ def Army_Education_Project(request):
     
     }
     return render(request, template_name, context)
+
+
