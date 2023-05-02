@@ -34,6 +34,9 @@ urlpatterns = [
     path("commandants/", views.commandants, name="commandants"),
     path("deputy-commandant/", views.Deputy_Commandant, name="Deputy_Commandant"),
     path("ima-campus-and-landmarks/", views.IMA_Campus_and_Landmarks, name="IMA_Campus_and_Landmarks"),
+    path("organisation/", views.organisation, name="organisation"),
+    path("entries/", views.entries, name="entries"),
+    path("training/", views.training, name="training"),
 ]
 
 

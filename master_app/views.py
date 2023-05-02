@@ -250,3 +250,27 @@ def IMA_Campus_and_Landmarks(request):
     
     }
     return render(request, template_name, context)
+
+
+def organisation(request):
+    template_name="master_app/organisation.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
+
+def entries(request):
+    template_name="master_app/entries.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
+
+
+
+def training(request):
+    template_name="master_app/training.html"
+    context={
+    
+    }
+    return render(request, template_name, context)
