@@ -298,3 +298,10 @@ def Life_of_a_GC(request):
     
     }
     return render(request, template_name, context)
+
+def IMA_Club(request):
+    template_name="master_app/IMA_Club.html"
+    context={
+    
+    }
+    return render(request, template_name, context)

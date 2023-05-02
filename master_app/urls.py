@@ -40,6 +40,7 @@ urlpatterns = [
     path("trial-and-triumph/", views.Trial_and_Triumph, name="Trial_and_Triumph"),
     path("roll-of-honour/", views.Roll_of_Honour, name="Roll_of_Honour"),
     path("life-of-a-gc/", views.Life_of_a_GC, name="Life_of_a_GC"),
+    path("ima-club/", views.IMA_Club, name="IMA_Club"),
 ]
 
 
