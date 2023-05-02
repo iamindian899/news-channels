@@ -189,7 +189,7 @@ def history(request):
 
 
 def Begining_to_Independence(request):
-    template_name="master_app\Begining_to_Independence.html"
+    template_name="master_app/Begining_to_Independence.html"
     context={
     
     }
@@ -197,7 +197,7 @@ def Begining_to_Independence(request):
 
 
 def Independence_to_Silver_Jubilee(request):
-    template_name="master_app\Independence_to_Silver_Jubilee.html"
+    template_name="master_app/Independence_to_Silver_Jubilee.html"
     context={
     
     }
@@ -205,7 +205,7 @@ def Independence_to_Silver_Jubilee(request):
 
 
 def Silver_to_Golden_Jubilee(request):
-    template_name="master_app\Silver_to_Golden_Jubilee.html"
+    template_name="master_app/Silver_to_Golden_Jubilee.html"
     context={
     
     }
@@ -213,7 +213,7 @@ def Silver_to_Golden_Jubilee(request):
 
 
 def Diamond_to_Platinum_Jubilee(request):
-    template_name="master_app\Diamond_to_Platinum_Jubilee.html"
+    template_name="master_app/Diamond_to_Platinum_Jubilee.html"
     context={
     
     }
@@ -221,8 +221,12 @@ def Diamond_to_Platinum_Jubilee(request):
 
 
 def Platinum_Jubilee_and_Thereafter(request):
-    template_name="master_app\Platinum_Jubilee_and_Thereafter.html"
+    template_name="master_app/Platinum_Jubilee_and_Thereafter.html"
     context={
     
     }
     return render(request, template_name, context)
+
+
+
+
